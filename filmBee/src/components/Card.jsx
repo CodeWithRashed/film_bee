@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 const Cart = ({ singleData }) => {
   return (
     <div className="border-2 border-red-200 p-3">
-      <h1>{singleData.img}</h1>
+      <img src={singleData.image} alt="" />
       <h1>{singleData.name}</h1>
     </div>
   );
