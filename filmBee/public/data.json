@@ -4,55 +4,55 @@
     "name": "Tom Hanks",
     "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Tom_Hanks_TIFF_2019.jpg",
     "title": "Actor",
-    "salary": "$1000"
+    "salary": "1000"
   },
   {
     "id": 2,
     "name": "Jennifer Lawrence",
     "image": "https://younghollywood.com/images/stories/newsIMG/wenn/20161203/wenn30538869_46_5830_1.jpg",
     "title": "Actress",
-    "salary": "$750"
+    "salary": "750"
   },
   {
     "id": 3,
     "name": "Leonardo DiCaprio",
     "image": "https://cdn.britannica.com/65/227665-050-D74A477E/American-actor-Leonardo-DiCaprio-2016.jpg",
     "title": "Actor",
-    "salary": "$1000"
+    "salary": "1000"
   },
   {
     "id": 4,
     "name": "Meryl Streep",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Meryl_Streep_December_2018.jpg/330px-Meryl_Streep_December_2018.jpg",
     "title": "Actress",
-    "salary": "$750"
+    "salary": "750"
   },
   {
     "id": 5,
     "name": "Brad Pitt",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Brad_Pitt_2019_by_Glenn_Francis.jpg/330px-Brad_Pitt_2019_by_Glenn_Francis.jpg",
     "title": "Actor",
-    "salary": "$1000"
+    "salary": "1000"
   },
   {
     "id": 6,
     "name": "Angelina Jolie",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Under_Secretary_Zeya_Meets_With_UNHCR_Special_Envoy_Jolie_%2851942861677%29_%28cropped%29.jpg/330px-Under_Secretary_Zeya_Meets_With_UNHCR_Special_Envoy_Jolie_%2851942861677%29_%28cropped%29.jpg",
     "title": "Actress",
-    "salary": "$750"
+    "salary": "750"
   },
   {
     "id": 7,
     "name": "Christopher Nolan",
     "image": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Christopher_Nolan%2C_London%2C_2013_%28crop%29.jpg",
     "title": "Story Writer",
-    "salary": "$1000"
+    "salary": "1000"
   },
   {
     "id": 8,
     "name": "Quentin Tarantino",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Quentin_Tarantino_by_Gage_Skidmore.jpg/330px-Quentin_Tarantino_by_Gage_Skidmore.jpg",
     "title": "Story Writer",
-    "salary": "$750"
+    "salary": "750"
   }
 ]

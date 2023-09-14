@@ -5,6 +5,9 @@ import Cart from "./Cart";
 const Homepage = () => {
   const [allData, setAllData] = useState([]);
   const [selectedPeople, setSelectedPeople] = useState([]);
+  const [finalSalary, setFinalSalary] = useState();
+  const budget = 2000;
+
   useEffect(() => {
     fetch("./data.json")
       .then((res) => res.json())
@@ -12,6 +15,24 @@ const Homepage = () => {
   }, []);
 
   const getSelectedPeople = (people) => {
+    let isExist = selectedPeople.find(
+      (singlePeople) => singlePeople.id == people.id
+    );
+
+    if (isExist) {
+      return alert("Already Added");
+    }
+    console.log(selectedPeople);
+    let initialSalary = parseInt(people.salary);
+    let totalSalary = selectedPeople.reduce(
+      (accumulator, person) => accumulator + parseInt(person.salary, 10),
+      initialSalary
+    );
+    setFinalSalary(totalSalary);
+    if (totalSalary > 2000) {
+      return alert("Not Enough Budget");
+    }
+
     setSelectedPeople([...selectedPeople, people]);
   };
   return (
@@ -30,7 +51,11 @@ const Homepage = () => {
         </div>
       </div>
       <div className="cart w-2/6">
-        <Cart selectedPeople={[selectedPeople]} />
+        <Cart
+          selectedPeople={selectedPeople}
+          finalSalary={finalSalary}
+          budget={budget}
+        />
       </div>
     </div>
   );
