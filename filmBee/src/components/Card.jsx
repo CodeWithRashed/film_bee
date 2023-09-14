@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-const Cart = ({ singleData }) => {
+const Card = ({ singleData, buttonFunction }) => {
   return (
     <div className="border-2 border-red-200 p-3 rounded flex flex-col justify-center items-center text-center">
       <img
@@ -10,13 +10,19 @@ const Cart = ({ singleData }) => {
       <h1>Name: {singleData.name}</h1>
       <h1>Title: {singleData.title}</h1>
       <h1>Salary: {singleData.salary}</h1>
-      <button className="bg-red-200 p-2 rounded">Select</button>
+      <button
+        className="bg-red-200 p-2 rounded"
+        onClick={() => buttonFunction(singleData)}
+      >
+        Select
+      </button>
     </div>
   );
 };
 
-Cart.propTypes = {
+Card.propTypes = {
   singleData: PropTypes.object.isRequired,
+  buttonFunction: PropTypes.func.isRequired,
 };
 
-export default Cart;
+export default Card;
