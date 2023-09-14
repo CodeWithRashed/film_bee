@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Tom Hanks",
+    "image": "tom_hanks.jpg",
+    "title": "Actor",
+    "salary": "$1000"
+  },
+  {
+    "id": 2,
+    "name": "Jennifer Lawrence",
+    "image": "jennifer_lawrence.jpg",
+    "title": "Actress",
+    "salary": "$750"
+  },
+  {
+    "id": 3,
+    "name": "Leonardo DiCaprio",
+    "image": "leonardo_dicaprio.jpg",
+    "title": "Actor",
+    "salary": "$1000"
+  },
+  {
+    "id": 4,
+    "name": "Meryl Streep",
+    "image": "meryl_streep.jpg",
+    "title": "Actress",
+    "salary": "$750"
+  },
+  {
+    "id": 5,
+    "name": "Brad Pitt",
+    "image": "brad_pitt.jpg",
+    "title": "Actor",
+    "salary": "$1000"
+  },
+  {
+    "id": 6,
+    "name": "Angelina Jolie",
+    "image": "angelina_jolie.jpg",
+    "title": "Actress",
+    "salary": "$750"
+  },
+  {
+    "id": 7,
+    "name": "Christopher Nolan",
+    "image": "christopher_nolan.jpg",
+    "title": "Story Writer",
+    "salary": "$1000"
+  },
+  {
+    "id": 8,
+    "name": "Quentin Tarantino",
+    "image": "quentin_tarantino.jpg",
+    "title": "Story Writer",
+    "salary": "$750"
+  }
+]
